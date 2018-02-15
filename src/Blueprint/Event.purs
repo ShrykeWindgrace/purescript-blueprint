@@ -2,7 +2,7 @@ module Blueprint.Event where
 
 import Control.Monad.Eff (Eff)
 import Data.Date (Date)
-import Data.Function.Eff (EffFn1, EffFn2)
+import Control.Monad.Eff.Uncurried (EffFn1, EffFn2)
 import Prelude (Unit)
 
 
