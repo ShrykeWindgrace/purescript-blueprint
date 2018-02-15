@@ -6,8 +6,8 @@ import Unsafe.Coerce (unsafeCoerce)
 
 import Blueprint.Type
 
-foreign import data  DatePickerModifiers :: *
-foreign import data DateRange :: *
+foreign import data  DatePickerModifiers :: Type
+foreign import data DateRange :: Type
 
 
 getDateRange :: Date -> Date -> DateRange
