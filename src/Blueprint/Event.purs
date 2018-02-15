@@ -6,10 +6,10 @@ import Data.Function.Eff (EffFn1, EffFn2)
 import Prelude (Unit)
 
 
-foreign import data EventTarget :: *
-foreign import data Event :: *
+foreign import data EventTarget :: Type
+foreign import data Event :: Type
 
-foreign import data HTMLElement :: *
+foreign import data HTMLElement :: Type
 
 type SyntheticEvent eff = SyntheticEventEx eff ()
 
